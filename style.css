@@ -156,12 +156,11 @@ ul {
     height: auto;
 }
 
-img {
-    /* max-width: 100%; */
+.images img {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .carousel-inner {
