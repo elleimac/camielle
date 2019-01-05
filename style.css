@@ -150,19 +150,23 @@ ul {
    margin: 0.4em;
 }
 
-.carousel-inner {
-    margin: auto;
-    width: 50%;
-}
-
 #carouselExampleIndicators, .images {
     background-color: #b7ac9a;  
     width: 100%;
+    height: auto;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.carousel-inner {
+    margin: auto;
+    width: 50%;
 }
   
 .carousel-caption {
