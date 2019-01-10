@@ -988,7 +988,9 @@
 			</div>
 			<div class="col-lg-8">
                     <h5>I am a front-end developer who values creativity, communication, positivity, and efficiency. 
-                        <span style="color:#026670">Check out some of my projects below!</span>
+                        <a href="index.html#projects">
+                            <span class="cursor" style="color:#026670">Check out some of my projects below!</span>
+                        </a>
                     </h5>
             </div>
         </div>
@@ -1016,66 +1018,78 @@
     </div>
     <!--END WHAT I USE-->
 
-    <!--IMAGE CAROUSEL-->
-    <div class="images">
-            <h5 class="top">Click any photo to be taken to the project's site</h5>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="https://elleimac.github.io/fort/" target="_blank"><img src="projects/fort.png" alt="Fort website">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5>Mock website for a company that builds forts. Built with HTML, CSS, Bootstrap, and a gif made from digital art done in Photoshop.</h5>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://elleimac.github.io/clock/" target="_blank"><img src="projects/clock.png" alt="Clock project">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5>A clock that gives you the current time! I used Photoshop to create the background, with CSS and JavaScript to create the clock.</h5>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://elleimac.github.io/memory/" target="_blank"><img src="projects/memory.png" alt="Memory game">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5>A fun memory game using JavaScript. Everything is positioned using flexbox in CSS, and the cards were designed in Photoshop.</h5>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="https://elleimac.github.io/ocarina/" target="_blank"><img src="projects/ocarina.png" alt="Play the ocarina">
-                        <div class="carousel-caption d-none d-md-block">
-                                <h5>Live your dream of playing the ocarina! Use the arrow keys and "A" key on your keyboard to conduct your song. Made with Javascript, and CSS to position elements.</h5>
-                        </div>
-                    </a>
-                </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            </div>
+    <!--PROJECT LIST-->
+    <div id="projects">
+        <h5 class="top">Click any photo to be taken to the project's site</h5>
+        <div class="images">
+            <table>
+                <tr>
+                    <td>
+                        <a class="project-img" href="https://elleimac.github.io/ocarina/" target="_blank">
+                            <img class="img-fluid cursor" src="projects/ocarina.png" width="450px" height="225px" alt="Play the ocarina">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="project-img">Uses data-key attributes and DOM event listeners to play .wav files using the arrow keys and “A” key on keyboards. 
+                            Elements positioned using Flexbox.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="project-img" href="https://elleimac.github.io/fort/" target="_blank">
+                            <img class="img-fluid cursor" src="projects/fort.png" width="450px" height="225px" alt="Fort website">
+                        </a>
+                    </td>
+                <tr>
+                    <td>
+                        <p class="project-img">Jumbotron image with digital art made in Photoshop turned into a gif. 
+                            Website uses Bootstrap and Flexbox while remaining responsive.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="project-img" href="https://elleimac.github.io/memory/" target="_blank">
+                            <img class="img-fluid cursor" src="projects/memory.png" width="450px" height="225px" alt="Memory game">
+                        </a>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <p class="project-img">Uses CSS to manipulate card animations and JavaScript to match pairs. 
+                            Cards drawn in Photoshop using digital tablet.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="project-img" href="https://elleimac.github.io/clock/" target="_blank">
+                            <img class="img-fluid cursor" src="projects/clock.png" width="450px" height="225px" alt="Clock project">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="project-img">Uses JavaScript to get the current time. Elements positioned using CSS. 
+                        </p>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
-    <!--END IMAGE CAROUSEL-->
+    <!--END PROJECT LIST-->
 
     <!--FORM-->
     <h3 class="upper">Get in touch!</h3>
     <div class="container">
 	    <form action="https://formspree.io/camielle.lonergan@gmail.com" method="POST">
-	    	<label for="name">Full Name</label>
-	  			<input type="text" name="name" placeholder="Full Name"><br><br>
+	    	<label for="name">Name</label>
+	  			<input type="text" name="name" placeholder="Jane Doe"><br><br>
 	  		<label for="name">Email</label>
-	  			<input type="email" name="_replyto" placeholder="Your email"><br><br>
+	  			<input type="email" name="_replyto" placeholder="someone@example.com"><br><br>
 	  		<label for="name">What can I help you with?</label>
 	  			<textarea name="message" placeholder="Comments"></textarea><br><br>
 	  		<div class="submit-btn"><input type="submit" value="Send"></div>
