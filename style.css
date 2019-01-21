@@ -1,279 +1,311 @@
-
-body, html {
-    background-color: #edeae5;
+body,
+html {
+	background-color: #edeae5;
 }
 
 /*SVG code*/
 
 @keyframes blink1 {
-    0%, 100% {fill: #9fedd7;}
-    50% {fill: #f6c92a;}
+	0%,
+	100% {
+		fill: #9fedd7;
+	}
+	50% {
+		fill: #f6c92a;
+	}
 }
 
 @keyframes blink2 {
-    0%, 100% {fill: #8acebb;}
-    50% {fill: #73ac9c;}
+	0%,
+	100% {
+		fill: #8acebb;
+	}
+	50% {
+		fill: #73ac9c;
+	}
 }
 
 @keyframes blink3 {
-    0%, 100% {fill: #73ac9c;}
-    50% {fill: #8acebb;}
+	0%,
+	100% {
+		fill: #73ac9c;
+	}
+	50% {
+		fill: #8acebb;
+	}
 }
 
 @keyframes blink4 {
-    0%, 100% {fill: #5c8b7e;}
-    50% {fill: #9fedd7;}
+	0%,
+	100% {
+		fill: #5c8b7e;
+	}
+	50% {
+		fill: #9fedd7;
+	}
 }
 
 @keyframes blink5 {
-    0%, 100% {fill: #476a60;}
-    50% {fill: #f6c92a;}
+	0%,
+	100% {
+		fill: #476a60;
+	}
+	50% {
+		fill: #f6c92a;
+	}
 }
-  
+
 .cls-6 {
-    animation-name: blink1;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    
+	animation-name: blink1;
+	animation-duration: 5s;
+	animation-timing-function: linear;
 }
 
 .cls-5 {
-    animation-name: blink2;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-   
-    animation-delay: 2s;
+	animation-name: blink2;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+	animation-delay: 2s;
 }
 
 .cls-4 {
-    animation-name: blink3;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-   
-    animation-delay: 3s;
+	animation-name: blink3;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+	animation-delay: 3s;
 }
 
 .cls-3 {
-    animation-name: blink4;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    
-    animation-delay: 5s;
+	animation-name: blink4;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+	animation-delay: 5s;
 }
 
 .cls-2 {
-    animation-name: blink5;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-   
-    animation-delay: 6s;
+	animation-name: blink5;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+
+	animation-delay: 6s;
 }
 
 /*End SVG code*/
 
 .col-lg-8 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .about-me {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    padding-right: 2em;
-    padding-left: 2em;
-    margin-right: 18em;
-    margin-left: 18em;
-    display: flex;
-    align-content: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    border: 2px solid black;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: black;
+	padding-right: 2em;
+	padding-left: 2em;
+	margin-right: 18em;
+	margin-left: 18em;
+	display: flex;
+	align-content: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	border: 2px solid black;
 }
 
 .use {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url('squares.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    padding-top: 7em;
-    padding-bottom: 10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-image: url("squares.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	padding-top: 7em;
+	padding-bottom: 10em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 .fixed {
-    position: fixed;
-    height: 100%;
-    width: 160px;
-    z-index: 1;
-    top: 0;
-    padding-right: 2em;
+	position: fixed;
+	height: 100%;
+	width: 160px;
+	z-index: 1;
+	top: 0;
+	padding-right: 2em;
 }
 
 .sidebar-fixed {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 
-.my-link  {
-    font-size: 2.3em;
-    color: #03cade;
+.my-link {
+	font-size: 2.3em;
+	color: #03cade;
 }
 
 .my-link:hover {
-    color: #f6c92a;
+	color: #f6c92a;
 }
 
 .icons {
-    color: #dbad09;
-    font-size: 2.3em;
-    padding-top: 0.2em;
-    padding-bottom: 0.6em;
+	color: #dbad09;
+	font-size: 2.3em;
+	padding-top: 0.2em;
+	padding-bottom: 0.6em;
 }
 
-.icons .fab, .icons .fas {
-   margin: 0.4em;
+.icons .fab,
+.icons .fas {
+	margin: 0.4em;
 }
 
 #projects {
-    background-color: #b7ac9a;
+	background-color: #b7ac9a;
 }
 
-.top, .upper {
-    display: flex;
-    justify-content: center;
-    color: #028795;
+.top,
+.upper {
+	display: flex;
+	justify-content: center;
+	color: #028795;
 }
 
 .top {
-    padding: 1em;
+	padding: 1em;
 }
 
 .images {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .project-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 8em;
+	padding-right: 8em;
 }
 
 .container {
 	border-top: solid;
-    border-width: 2px;
+	border-width: 2px;
 	display: flex;
-    align-items: center;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	align-items: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	padding: 50px;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 
-input[type=text], input[type=email], textarea{
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
 
-input[type=submit] {
-    width: 30%;
-    color: #028795;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #f6c92a;
+input[type="submit"] {
+	width: 30%;
+	color: #028795;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #f6c92a;
 }
 
-input[type=submit]:hover, .cursor:hover {
-    opacity: 0.7;
+input[type="submit"]:hover,
+.cursor:hover {
+	opacity: 0.7;
 }
 
 .submit-btn {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .upper {
-    padding-top: 1em;
+	padding-top: 1em;
 }
 
 footer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #028795;
-    color: #f6c92a;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-color: #028795;
+	color: #f6c92a;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
 }
 
 footer a {
-    color: #fef9c7;
+	color: #fef9c7;
 }
 
 footer a:hover {
-    color: #03cade;
-    text-decoration: none;
+	color: #03cade;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 790px) {
-    .about-me {
-        border: none;
-        margin: auto;
-    }
-    .about-me h5, .top {
-        text-align: center;
-    }
-    .col-lg-4 {
-        display: flex;
-        justify-content: center;
-    }
-    .my-link  {
-        font-size: 1.3em;
-    }
-    .sidebar-fixed {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 20px;
-    }
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-    }
+	.about-me {
+		border: none;
+		margin: auto;
+	}
+	.about-me h5,
+	.top {
+		text-align: center;
+	}
+	.col-lg-4 {
+		display: flex;
+		justify-content: center;
+	}
+	.my-link {
+		font-size: 1.3em;
+	}
+	.sidebar-fixed {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 20px;
+	}
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
-    .my-link  {
-        font-size: 1.6em;
-    }
+	.my-link {
+		font-size: 1.6em;
+	}
 }
