@@ -121,6 +121,15 @@ a:hover {
 	border: 2px solid black;
 }
 
+.email {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: #028795;
+}
+
+.email:hover {
+	color: #dbad09;
+}
+
 .use {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	background-image: url("squares.png");
@@ -276,7 +285,7 @@ footer a:hover {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 890px) {
 	.about-me {
 		border: none;
 		margin: auto;
@@ -307,5 +316,4 @@ footer a:hover {
 @media only screen and (max-width: 1000px) {
 	.my-link {
 		font-size: 1.6em;
-	}
 }
